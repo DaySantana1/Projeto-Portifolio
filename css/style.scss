@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* hover */
+.logo-image:hover{
+    transform: scale(1.2);
+    transition: all .2s ease-in;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+/* fim hover */
+
+/* formatação menu */
+.header{
+    padding: 3rem;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+
+.logo-img{
+    width: 8rem;
+}
+
+.logo{
+    width: 100%;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: .5s;
+    margin: 0 10px
+}

@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::root{
+    --light: #f1f8f8;
+    --dark: #323232;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* hover */
+.logo-image:hover{
+    transform: scale(1.2);
+    transition: all .2s ease-in;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+/* fim hover */
+
+/* formatação menu */
+.header{
+    padding: 1.5rem;
+    position: absolute;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+
+.logo-img{
+    width: 8rem;
+}
+
+.logo{
+    width: 100%;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: .5s;
+    margin: 0 10px;
+    color: #f8f1f1;
+}
+
+/* fim formatação menu */
+
+/* hero */
+.container {
+    width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hero-title{
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5rem;
+    color: #323232;
+    width: 50%;
+    margin: 0 0 0 7rem;
+}
+
+.image-hero{
+    display: flex;
+    width: 27%;
+    margin-right: 10%;
+}
+
+.image-hero img{
+    min-width: 100%;
+    max-height: 100%;
+}
+
+.bg-image-1{
+    background: linear-gradient(90deg, rgba(248,241,241,1) 53%, rgba(53,53,53,1) 53%);
+}
+
+/* him hero */
+
+/* page-2*/
+
+.page-2{
+    height: 100vh;
+    padding: 10rem 7rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-2-title h1{
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center; 
+    color: #f8f1f1;
+}
+
+.page-2-title p{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: justify; 
+    color: #f8f1f1;
+    margin: 5rem 0 2rem 0;
+}
+
+.img-page-2{
+    transform: scaleX(-1);
+    display: flex;
+    width: 32%;
+    margin-right: 10%;
+}
+
+.img-page-2 img{
+    min-width: 100%;
+    max-height: 100%;
+}
+
+.bg-image-2{
+    background: #2B6060;
+    background-image: url(../images/Green\ Abstract\ Background\ 1.png);
+}
