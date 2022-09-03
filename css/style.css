@@ -21,9 +21,13 @@ body {
 }
 
 /* hover */
-.logo-image:hover{
-    transform: scale(1.2);
-    transition: all .2s ease-in;
+.links-icons button:hover{
+    background-color: #494949;
+    color: #f8f1f1;
+}
+.links-icons button a:hover{
+    background-color: #494949;
+    color: #f8f1f1;
 }
 
 .navigation a:hover{
@@ -94,10 +98,34 @@ body {
     margin: 0 0 0 7rem;
 }
 
+.links-icons{
+    display: flex;
+    transition: 0.5;
+}
+
+.links-icons button{
+    padding: 10px;
+    border: 2px solid #494949;
+    background-color: #f8f1f1;
+    border-radius: 7px;
+    margin: 2rem 1rem 0 0;
+}
+
+.links-icons a{
+    text-decoration: none;
+    color: #323232;
+}
+
+.bi{
+    margin: 0.5rem;
+}
+
 .image-hero{
     display: flex;
-    width: 27%;
-    margin-right: 10%;
+    width: 45%;
+    height: 90vh;
+    margin-top: 4rem;
+    margin-right: 2%;
 }
 
 .image-hero img{
@@ -105,8 +133,22 @@ body {
     max-height: 100%;
 }
 
+.caracter-1{
+    position: absolute;
+    right: 0;
+    margin-right: 9%;
+    width: 27%;
+}
+
 .bg-image-1{
     background: linear-gradient(90deg, rgba(248,241,241,1) 53%, rgba(53,53,53,1) 53%);
+    /* background-image: url(../images/background-hero.png); */
+}
+
+.img {
+    width: 50%;
+    height: 100%;
+
 }
 
 /* him hero */
