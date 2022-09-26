@@ -194,4 +194,22 @@ body {
 .bg-image-2{
     background: #2B6060;
     background-image: url(../images/Green\ Abstract\ Background\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.projects-page{
+    background-color: #323232;
+    height: 100vh;
+    padding: 10rem 7rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projects-page h1{
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center; 
+    color: #f8f1f1;
 }
